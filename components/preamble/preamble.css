@@ -1,0 +1,61 @@
+.preamble {
+
+}
+
+.preamble__link {
+    text-decoration: none;
+}
+
+.preamble__link_unhover:hover {
+    color: inherit;
+}
+
+.preamble__quote {
+    line-height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.preamble__img {
+    border: 1px solid #316e66;
+    width: 50%;
+}
+
+.preamble__img_float_right {
+    float: right;
+    margin-left: 20px;
+}
+
+.preamble__img_float_left {
+    float: left;
+    margin-right: 20px;
+}
+
+.preamble__rate-box {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    color: #316e66;
+    position: absolute;
+    bottom: 0;
+}
+
+.preamble__header-wrapper {
+
+}
+
+.preamble_theme_card {
+    position: relative;
+}
+
+.preamble_theme_card h1:first-child {
+    margin-top: 0;
+}
+
+.preamble_theme_card p:last-child {
+    margin-bottom: 0;
+}

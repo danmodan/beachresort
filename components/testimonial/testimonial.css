@@ -1,0 +1,15 @@
+.testimonial {
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 20px 15px;
+    box-shadow: 2px 2px 15px 2px hsla(0, 0%, 100%, .5);
+}
+
+.testimonial__header {
+    font-size: 2.0rem;
+    margin: 0;
+}
+
+.testimonial__quote {
+    margin: 0;
+}

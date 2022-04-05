@@ -1,0 +1,17 @@
+.page {
+    background: url("bg-pattern.jpg") repeat-x center top, url("bg-body.jpg"), #dfcaa0;
+}
+
+.page__inner {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.page__head,
+.page__body,
+.page__foot {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}

@@ -1,0 +1,97 @@
+.navbar-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.navbar-links__li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.navbar-links__li_active {
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+
+.navbar-links__li:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.navbar-links__li a {
+    text-decoration: inherit;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+/* 
+    theme aqua bold
+*/
+
+.navbar-links_theme_bold-aqua {
+    text-align: unset;
+    text-align-last: unset;
+    height: 100%;
+    background-image: linear-gradient(hsl(172, 40%, 35%), hsl(172, 40%, 49%));
+    background-clip: content-box;
+    position: relative;
+    font-weight: 800;
+}
+
+.navbar-links_theme_bold-aqua::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: hsla(0, 0%, 100%, .4);
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+    box-shadow: 0px 5px 20px hsl(0, 0%, 100%);
+}
+
+.navbar-links__li_theme_bold-aqua {
+    color: hsl(0, 0%, 100%);
+    float: left;
+    display: table;
+    width: calc((100% - 12px) / 7);
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, hsl(172, 40%, 35%), hsl(172, 40%, 49%));
+    margin-right: 1px;
+    margin-left: 1px;
+    z-index: 100;
+}
+
+.navbar-links__li_theme_bold-aqua:hover {
+    color: #6d6157;
+    background-image: linear-gradient(#efebcd, #cdc7a6);
+}
+
+.navbar-links__li_theme_bold-aqua:first-child {
+    margin-left: 0px;
+}
+
+.navbar-links__li_theme_bold-aqua:last-child {
+    margin-right: 0px;
+
+}
+
+.navbar-links__li_theme_bold-aqua > a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar-links__li_theme_bold-aqua > a:hover {
+    color: inherit;
+}
+
+.navbar-links__li_theme_bold-aqua.navbar-links__li_active {
+    background-image: linear-gradient(#6d5f57, #9b8d85);
+    position: relative;
+    z-index: 200;
+    color: #e4e1bd;
+}

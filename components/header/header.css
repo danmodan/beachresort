@@ -1,0 +1,13 @@
+.header-wrapper {
+    margin-top: 20px;
+}
+
+.header-wrapper__navbar {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.header-wrapper__navbar,
+.header-wrapper__logo {
+    margin: 20px;
+}

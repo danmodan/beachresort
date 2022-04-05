@@ -1,0 +1,35 @@
+.footer {
+    font-size: 1.6rem;
+}
+
+.footer__links {
+    background-color: hsl(25, 13%, 63%);
+    border-top: 1px solid hsl(27, 21%, 75%);
+    border-bottom: 1px solid hsl(25, 9%, 41%);
+    padding: 15px 20px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.footer__links a:hover {
+    color: hsl(50, 56%, 85%);
+}
+
+.footer__copyrights {
+    text-align: center;
+}
+
+.footer__nav {
+    display: inline-block;
+    width: calc(65% - 20px);
+}
+
+.footer__address {
+    display: inline-block;
+    width: calc(15% - 20px);
+    color: hsl(50, 56%, 85%);
+}
+
+.footer__address a:hover {
+    color: inherit;
+}

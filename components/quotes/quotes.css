@@ -1,0 +1,22 @@
+.quote {
+    text-align: justify;
+    position: relative;
+}
+
+.quote__author {
+    text-align: right;
+    color: #4aa79b;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+.quote__author::before {
+    content: " - ";
+    color: #5a4535;
+}
+
+.quote__author a {
+    text-decoration: inherit;
+    color: inherit;
+}
